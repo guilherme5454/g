@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Linguagens de Marcação - HTML</title>
+        
+        <style>
+             {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+            justify-content: space-around;
+            align-content: center;
+  }
+ 
+  header p {
+    display: block;
+          text-decoration: none;
+          transition: color 200ms;
+          font-size: 23px;
+          display: flex;
+           
+  }
+  header p a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#fff;
+            font-weight: bolder;
+            display: block;
+            text-decoration: none;
+  }
+  h4{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 17px;
+            height: 50px;
+        }
+        h4 a{
+            color: rgb(78, 110, 185);
+            display: block;
+            text-decoration: none;
+            height: 0px;
+        }
+  a:hover {
+     	color:rgb(14, 6, 122);
+	    font-weight: bold;
+        }
+ header p a{
+            color:#fff;
+            display: block;
+            text-decoration: none;
+            height: 0px;
+
+        }
+  main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+    /* min-height: calc(100vh - 211px - 58px); */
+  }
+  article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+  article h3 {
+    margin: 10px 0 25px 0;
+  }
+  article p {
+    color: rgb(63, 61, 61);
+          font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-size: 22px;
+          font-weight: normal;
+          line-height: 35px; 
+          text-align: center; 
+  }
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed;
+    z-index: 1; */
+  }
+  
+  @media(max-width:768px) {
+    header { padding: 30px 20px; }
+    header p { font-size: 18px; }
+    main { width: 100vw; padding: 20px; }
+    article { margin-bottom: 16px; font-size: 14px; }
+    article h3 { margin: 10px 0 20px 0; }
+    article p { margin-top: 16px; line-height: 20px; }
+  }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <p> 
+                <a href="./index.html">
+                    INICIO</a>
+            </p>
+            <p> <a href="https://twitter.com/Gui_fiddy">
+                TWITTER</a>
+            </p>
+           <p>
+            <a href="https://www.instagram.com/ty.guilherme">
+                INSTAGRAM </a>
+           </p>
+          </header>
+          <center>
+          <main>
+            <article>
+                <img src="IMG_20191205_191430_065.jpg" alt="foto de perfil"
+                width="300" margin: 0 auto;/>
+              <h2>Eai, Bem Vindo a minha Pagina !</h2>
+              <p>Oi me chamo Guilherme olivera atualmente estudando no curso superior de<br>
+                Tecnologia em Análise e Desenvolvimento de Sistemas - Campus Cajazeiras, <br>
+                tenho 22 anos pratico esportes como futebol e musculação, fora isso esse ano <br>
+                estou tendo minha primeira experiência em uma faculdade e consequentemente<br>
+                o primeiro contato com assuntos como html, css e etc. A baixo irei deixar <br>
+                algumas coisas que eu particulamente gosto!
+            </p>
+            </article>
+            <article>
+                <h2>FILME PREFERIDO</h2>
+                <img src="harry.jpg" alt="harry potter"
+                 width="360" margin: 0 auto;/>
+                <h3>Harry Potter</h3>
+                <p>De longe os filmes com temática de fantasia são meus preferidos,<br>
+                    Harry Potter e seus filmes marcaram minha infância e desde então<br>
+                    são os primeiros dos meus preferidos, Harry Potter é uma série de <br>
+                    sete romances de fantasia escrita pela autora britânica J. K. Rowling.<br>
+                     A série narra as aventuras de um jovem chamado Harry James Potter,<br>
+                    que descobre aos 11 anos que é um bruxo ao ser convidado para <br>
+                    estudar na Escola de Magia e Bruxaria de Hogwarts!
+                </p>
+
+                    <h4><a href="http://harrypotteroguia.blogspot.com/2011/08/saiba-tudo-sobre-harry-potter.html"> Quer saber mais sobre Harry Potter? Clica aqui!</a></h4>
+
+              </article>
+              <article>
+                <h2>GAMES</h2>
+                <img src="cdz.jpg.jpg" alt="saint seiya awakening"
+                width="360" margin: 0 auto;/>
+                <h3>saint seiya awakening</h3>
+                <P>Falar de games pra mim, é algo que me agrada bastante, já joguei<br>
+                    vários jogos como, League of legends, Lineage2, Pubg e assim vai..<br>
+                    Mas no momento um jogo tem tirado meu único tempo livre hoje em <br>
+                    dia, que é o Saint seiya Awakening! Esse game é simplesmente viciante,<br>
+                    com um estilo de jogo que eu nunca pensei que gostaria. O game se baseá<br>
+                    em um estilo RPG de turno, mais o melhor é a nostalgia que o game trás<br>
+                    com os cavaleiros do zodíaco, isso é incrível!
+                </p>
+            
+      <h4><a href="https://play.google.com/store/apps/details?id=com.tencent.tmgp.sskeus">Download e informações de Saint Seiya!</a>
+     </h4>
+
+   <p>    
+              </article>
+          </main>
+        </center>
+          <footer>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Guilherme Oliveira</p>
+          </footer>
+    </body>
+</html>
